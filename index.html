@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/favicon/icono.png">
+  <title> Desafío 4 - Cuppon </title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/791a0002d5.js" crossorigin="anonymous"></script>
+</head>
+
+<header>
+  <div class="row bg-area-green">
+    <nav class="navbar navbar-expand-sm navbar-dark no-padd">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+         
+          <p class="cuppon-title color-white fw-bold"><i class="fa-solid fa-tags"></i> CUPPON</p>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler1"
+          aria-controls="navbarToggler1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler1">
+          <ul class="navbar-nav  me-auto mb-2 mb-lg-0 no-padd">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#enviarCupones">Cupones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Precios</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-12 col-md-4 col-xl-4 py-2 px-3">
+      <article class="card">
+        <img src="assets/imgs/plumon.jpg" class="card-img-top" alt="plumon">
+        <div class="card-body">
+          <h5 class="card-title">Plumón Fleece estampado modelo a elección, tamaño King</h5>
+          <p class="card-text">Plumones Manolino.</p>
+          <p class="card-text-address "><i class="fa-solid fa-location-dot"></i> Avenida Errázuriz 121, Valparaíso,
+            Chile
+          </p>
+        </div>
+
+        <div class="container">
+          <hr>
+          <div class="row row-cols-3">
+            <p class="card-text-price1"></p>
+            <p class="card-text-price1">$95.990</p>
+            <p class="card-text-price2">$72.990</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-4 col-xl-4 py-2 px-3">
+      <article class="card">
+        <img src="assets/imgs/paseofam.jpg" class="card-img-top" alt="Paseo famliar por 5">
+        <div class="card-body">
+          <h5 class="card-title">Paseo familiar lugar a elección hasta 5 personas.</h5>
+          <p class="card-text">Cabañas Disfrutar.</p>
+          <p class="card-text-address "><i class="fa-solid fa-location-dot"></i> Calle 2 nro 255 Reñaca, Viña del Mar,
+            Chile
+          </p>
+        </div>
+        <div class="container">
+          <hr>
+          <div class="row row-cols-3">
+            <p class="card-text-price1"> </p>
+            <p class="card-text-price1">$70.000</p>
+            <p class="card-text-price2">$55.000</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-4 col-xl-4  py-2 px-3">
+      <article class="card">
+        <img src="assets/imgs/cena.jpg" class="card-img-top" alt="Cena para 2">
+        <div class="card-body">
+          <h5 class="card-title">Cena romántica, de 3 tiempos, para 2 personas</h5>
+          <p class="card-text">Restaurant Internacional.</p>
+          <p class="card-text-address "><i class="fa-solid fa-location-dot"></i> Avenida Vitacura 14256, Santiago, Chile
+          </p>
+        </div>
+
+        <div class="container ">
+          <hr>
+          <div class="row row-cols-3">
+            <p class="card-text-price1"></p>
+            <p class="card-text-price1">$82.000</p>
+            <p class="card-text-price2">$65.000</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-4 col-xl-4  py-2 px-3">
+      <article class="card">
+        <img src="assets/imgs/masaje.jpg" class="card-img-top " alt="masaje">
+        <div class="card-body">
+          <h5 class="card-title">Masaje a elección, de 1 hora, para 1 persona</h5>
+          <p class="card-text">Centro de Terapias Wabi.</p>
+          <p class="card-text-address "><i class="fa-solid fa-location-dot"></i> Camino a Melipilla 345 parcela 21,
+            Santiago,
+            Chile
+          </p>
+        </div>
+
+        <div class="container ">
+          <hr>
+          <div class="row row-cols-3">
+            <p class="card-text-price1"></p>
+            <p class="card-text-price1">$45.000</p>
+            <p class="card-text-price2">$25.000</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-4 col-xl-4  py-2 px-3">
+      <article class="card">
+        <img src="assets/imgs/trekking.jpg" class="card-img-top " alt="trekking">
+        <div class="card-body">
+          <h5 class="card-title">Trekking para 2 personas. Incluye bastones y snacks.</h5>
+          <p class="card-text">Trekking spa.</p>
+          <p class="card-text-address"><i class="fa-solid fa-location-dot"></i> Camino a Farellones 12342, Santiago,
+            Chile</p>
+        </div>
+
+        <div class="container">
+          <hr>
+          <div class="row row-cols-3">
+            <p class="card-text-price1"></p>
+            <p class="card-text-price1">$45.000</p>
+            <p class="card-text-price2">$30.000</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-4 col-xl-4  py-2 px-3">
+      <article class="card">
+        <img src="assets/imgs/tinaja.jpg" class="card-img-top " alt="Tinajas">
+        <div class="card-body">
+          <h5 class="card-title">Tinaja de agua caliente por 1 hora, hasta 4 personas.</h5>
+          <p class="card-text">Tinajas Relax.</p>
+          <p class="card-text-address "><i class="fa-solid fa-location-dot"></i> Camino al Volcán 123313, Santiago,
+            Chile
+          </p>
+        </div>
+
+        <div class="container">
+          <hr>
+          <div class="row row-cols-3">
+            <p class="card-text-price1"></p>
+            <p class="card-text-price1">$30.000</p>
+            <p class="card-text-price2">$23.000</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>
+
+
+<article id="enviarCupones" class="row bg-area-green">
+  <form action="#">
+    <div class="col-12 px-5 py-2 pt-5">
+      <h2 class="form-text-title text-center no-padd">Recibe cupones en tu correo</h2>
+    </div>
+    <div class="col-12 px-5 py-2">
+      <input type="text" class="form-control form-text-input" id="inputName"  placeholder="Nombre" required>
+    </div>
+
+    <div class="col-12  px-5 py-2">
+      <input type="email" class="form-control form-text-input" id="inputEmail"   placeholder="Correo electrónico"
+        required>
+    </div>
+
+    <div class="pb-3 text-center">
+      <input type="submit" class="btn" name="enviar"  value="Enviar">
+    </div>
+   
+  </form>
+</article>
+
+<div class="container text-center">
+  <div class="footer">
+    <div class="col-12 pt-4">
+      <p class="cuppon-title color-black fw-bold"><i class="fa-solid fa-tags"></i> CUPPON</p>
+    </div>
+    <div class="col-12 pt-1 footer-text">
+      <p>© 2022 Cuppon Latam. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+ 
+
+</body>
+
+</html>
